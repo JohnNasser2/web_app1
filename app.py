@@ -96,7 +96,7 @@ def homePage():
         return render_template("index.html", title="Lebsy", staticImage="/static/images/result.jpg", loading="notLoading")
     else:
         return render_template("index.html", title="Lebsy", staticImage="/static/images/result.jpg", loading="notLoading")
- 
+#  fd
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
