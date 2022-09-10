@@ -32,6 +32,7 @@ google-resumable-media==2.3.3
 googleapis-common-protos==1.56.4
 grpcio==1.47.0
 grpcio-status==1.47.0
+gunicorn==20.1.0
 h11==0.13.0
 httplib2==0.20.4
 humanfriendly==10.0
@@ -83,4 +84,3 @@ watchdog==2.1.9
 Werkzeug==2.2.2
 yarl==1.8.1
 zipp==3.8.1
-gunicorn
