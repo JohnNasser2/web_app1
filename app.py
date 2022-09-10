@@ -95,7 +95,7 @@ def homePage():
                 return render_template("index.html", title="Lebsy", staticImage="/static/images/result.jpg", loading="notLoading")
         return render_template("index.html", title="Lebsy", staticImage="/static/images/result.jpg", loading="notLoading")
     else:
-        return render_template("index.html", title="Lebsy", staticImage="/static/images/result.jpg", loading="notLoading")
+        return render_template("index.html", title="Lebsy", staticImage="/static/images/incode.png", loading="notLoading")
 #  fd
 
 if __name__ == "__main__":
